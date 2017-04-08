@@ -1,0 +1,29 @@
+FILE *f;
+
+f = fopen("dhcpd.conf", "w");
+
+fprintf(conf_file, "### File Created with gdhcpd\n");
+
+fprintf(conf_file, "option tftp-servers code 150 = %s ;\n", &servers[]);
+
+fprintf(conf_file, "#shared-network 224-29 {\n");
+
+fprintf(conf_file, "\tsubnet %s netmask %s {\n", &network_address[], &netmask[]);
+
+fprintf(conf_file, "\toption tftp-servers %s;\n", &servers[]);
+
+fprintf(conf_file, "\t}\n");
+
+fprintf(conf_file, "}\n");
+
+fprintf(conf_file, "\tpool {");
+
+fprintf(conf_file, "\tdeny members of \"foo\";");
+
+fprintf(conf_file, "\trange 10.0.29.10 10.0.29.230;");
+
+fprintf(conf_file, "\t}");
+
+fprintf(conf_file, "\toption routers %s;", &routers[]);
+
+fclose(conf_file);

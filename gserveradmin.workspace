@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="gserveradmin" Database="">
+  <Project Name="gapache2" Path="gapache2/gapache2.project" Active="No"/>
+  <Project Name="gsshd" Path="gsshd/gsshd.project"/>
+  <Project Name="gsql" Path="gsql/gsql.project"/>
+  <Project Name="giptables" Path="giptables/giptables.project"/>
+  <Project Name="gftpd" Path="gftpd/gftpd.project"/>
+  <Project Name="gdns" Path="gdns/gdns.project"/>
+  <Project Name="gdhcpd" Path="gdhcpd/gdhcpd.project"/>
+  <Project Name="gsamba" Path="gsamba/gsamba.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="gsshd" ConfigName="Debug"/>
+      <Project Name="gsql" ConfigName="Debug"/>
+      <Project Name="gsamba" ConfigName="Debug"/>
+      <Project Name="giptables" ConfigName="Debug"/>
+      <Project Name="gftpd" ConfigName="Debug"/>
+      <Project Name="gdns" ConfigName="Debug"/>
+      <Project Name="gdhcpd" ConfigName="Debug"/>
+      <Project Name="gapache2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="gapache2" ConfigName="Release"/>
+      <Project Name="gsshd" ConfigName="Release"/>
+      <Project Name="gsql" ConfigName="Release"/>
+      <Project Name="giptables" ConfigName="Release"/>
+      <Project Name="gftpd" ConfigName="Release"/>
+      <Project Name="gdns" ConfigName="Release"/>
+      <Project Name="gdhcpd" ConfigName="Release"/>
+      <Project Name="gsamba" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

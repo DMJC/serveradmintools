@@ -1,0 +1,7 @@
+● atftpd.service - LSB: Launch atftpd server
+   Loaded: loaded (/etc/init.d/atftpd; generated; vendor preset: enabled)
+   Active: active (exited) since Fri 2016-10-28 00:01:09 AEDT; 1s ago
+     Docs: man:systemd-sysv-generator(8)
+  Process: 18018 ExecStop=/etc/init.d/atftpd stop (code=exited, status=0/SUCCESS)
+  Process: 18147 ExecStart=/etc/init.d/atftpd start (code=exited, status=0/SUCCESS)
+
